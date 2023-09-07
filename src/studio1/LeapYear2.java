@@ -12,6 +12,7 @@ public class LeapYear2 {
 		boolean LeapYear = (year % 4 == 0) && (year % 100 > 0) || (year % 400 == 0);
 		System.out.println(LeapYear);
 		
+		
 	}
 
 }
